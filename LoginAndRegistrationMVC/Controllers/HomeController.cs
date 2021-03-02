@@ -89,7 +89,7 @@ namespace LoginAndRegistrationMVC.Controllers
                 else
                 {
                     ViewBag.error = "Login failed";
-                    return RedirectToAction("Login");
+                    return View(); 
                 }
             }
             return View();
